@@ -10,16 +10,21 @@ body {
 
 /* padronização de cores de background*/
 
-.back-primario{
+.back-primario {
     background-color: #6CE7E3;
 }
-.back-secundario{
+
+.back-secundario {
     background-color: #2E3656;
 }
 
-.animal-intro{
+.animal-intro {
     width: 100%;
     position: absolute;
     left: -35px;
     bottom: 0;
+}
+
+.content {
+    width: 80%;
 }
