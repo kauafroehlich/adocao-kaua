@@ -1,21 +1,23 @@
 /* TUDO O QUE COLOCARMOS AQUI SERA REFERENTE AO ESTILO DO SITE */
-
 /* O CSS funciona através de classes e elementos, então se eu quero mudoar o estilo de algo eu preciso referenciar o nome do elemento ou sua classe */
 
+/*Importa a fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap');
 /* No body coloca margem e espaçamentos */
 body {
     margin: 0px;
     padding: 0px;
+    font-family:'Outfit', sans-serif
 }
 
 /* padronização de cores de background*/
 
 .back-primario {
-    background-color: #6CE7E3;
+    background-color: #2E3656;
 }
 
 .back-secundario {
-    background-color: #2E3656;
+    background-color: #6CE7E3;
 }
 
 .animal-intro {
@@ -27,4 +29,128 @@ body {
 
 .content {
     width: 80%;
+}
+
+/* CLASSES DE ESTILIZAÇÃO DE TEXTOS */
+
+/* classe para titulo com cor primaria */
+.title-1 {
+    color: #6CE7E3;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title-2 {
+    color: #2E3656;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* classe para textos de apoio com cor primaria */
+.text-info{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-info2 {
+    color: #2E3656;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-info3 {
+    color: #2E3656;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-info4 {
+    color: #2E3656;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-info3:hover {
+    color: #6CE7E3;
+}
+
+/*CLASSES DE BOTÕES */
+
+.btn-primary {
+    background-color: #ffc354;
+    color: #2E3656;
+    font-size: 17px;
+    font-weight: 600;
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #2E3656;
+    color: #ffd27d;
+}
+
+/* CLASSES DE INPUT */
+.input-primary {
+    font-size: 17px;
+    font-weight: 500;
+    height: 40px;
+    width: calc(100% - 40px);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 25px;
+    color: #505050;
+}
+
+
+/* CLASSES DE PADRÕES DE MARGENS */
+/* Quando eu usar a classe mt1 ele vai colocar uma margem em cima do elemento */
+.top1 {
+    margin-top: 1vh;
+}
+
+.top2 {
+    margin-top: 2vh;
+}
+
+.top3 {
+    margin-top: 3vh;
+}
+
+.top4 {
+    margin-top: 4vh;
+}
+
+.top5 {
+    margin-top: 5vh;
+}
+
+.top6 {
+    margin-top: 6vh;
+}
+
+.top7 {
+    margin-top: 7vh;
+}
+
+.top8 {
+    margin-top: 8vh;
+}
+
+.top10 {
+    margin-top: 10vh;
 }
